@@ -15,4 +15,13 @@ react-native run-android 报错集合
 
 3、xxx.52.0错误为JDk版本不对，需要1.8的，环境变量也需要设置为1.8
 
+4、Could not get BatchedBridge, make sure your bundle is packaged correctly   解决方法如下：
+   
+   http://www.open-open.com/lib/view/open1477469117948.html
+
+react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/ 
+
+先创建assets目录
+
+
 
