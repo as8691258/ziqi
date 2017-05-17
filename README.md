@@ -34,5 +34,6 @@ npm install node-sass --save-dev --sass-binary-site=http://localhost:8080/ --reg
 注意是–sass-binary-site=http://localhost:8080/
 不用加后面的v3.10.0/darwin-x64-48_binding.node
 
-
+react学习资料
+http://huziketang.com/books/react/lesson1
 
