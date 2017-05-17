@@ -24,4 +24,15 @@ react-native bundle --platform android --dev false --entry-file index.android.js
 先创建assets目录
 
 
+darwin-x64-48_binding.node安装不成功的解决方案
+还有一种方式，先将darwin-x64-48_binding.node下载下来
+
+再把它放到本地的服务器下，假设端口是8080, 通过http://localhost:8080/v3.10.0/darwin-x64-48_binding.node 能访问到就行
+然后运行
+npm install node-sass --save-dev --sass-binary-site=http://localhost:8080/ --registry=https://registry.npm.taobao.org
+
+注意是–sass-binary-site=http://localhost:8080/
+不用加后面的v3.10.0/darwin-x64-48_binding.node
+
+
 
