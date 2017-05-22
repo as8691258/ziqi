@@ -15,7 +15,7 @@ react-native run-android 报错集合
 
 3、xxx.52.0错误为JDk版本不对，需要1.8的，环境变量也需要设置为1.8
 
-4、Could not get BatchedBridge, make sure your bundle is packaged correctly   解决方法如下：
+4、Could not get BatchedBridge, make sure your bundle is packaged correctly 或 Error calling AppRegistry.runApplication   解决方法如下：
    
    http://www.open-open.com/lib/view/open1477469117948.html
 
